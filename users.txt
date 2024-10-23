@@ -1,0 +1,2 @@
+a:5:{s:14:"felhasznalonev";s:5:"admin";s:6:"jelszo";s:60:"$2y$10$.cVFGqRMS9iAyqvuvQ7WzOExwkz204eEijDewTYzmM1f3kGOJOTUO";s:5:"email";s:14:"admin@admin.hu";s:7:"telefon";s:14:"Nincs megadva!";s:3:"cim";s:14:"Nincs megadva!";}
+a:5:{s:14:"felhasznalonev";s:3:"asd";s:6:"jelszo";s:60:"$2y$10$pC9JMwOeYxPgR7fJo9brhudc6BK6a7K1lbYXtcluwyF8gwh5tROiq";s:5:"email";s:10:"asd@asd.hu";s:7:"telefon";s:14:"Nincs megadva!";s:3:"cim";s:14:"Nincs megadva!";}
