@@ -1,6 +1,6 @@
 # Webterv_Php_Mozi
 
-Ez a projekt 2022-ben készült csoporttársammal, a cél egy mozi weboldal készítése volt HTML/CSS-be, majd PHP-ban "felokosítása". 
+Ez a projekt 2022-ben készült csoporttársammal a Webtervetés gyakorlat projektmunkájára, a cél egy mozi weboldal készítése volt HTML/CSS-be, majd PHP-ban "felokosítása". 
 
 ## Funkciók
 
