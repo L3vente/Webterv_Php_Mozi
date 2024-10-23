@@ -1,0 +1,65 @@
+.cards{
+  float: left;
+  width: 300px;
+  position: relative;
+  height: 200px;
+  margin: 125px 50px 50px 100px;
+  animation-name: kepanim;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.cards img{
+  width: 300px;
+  height: 200px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0 rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+.cards:last-of-type{
+  margin-bottom: 300px;
+}
+header h1{
+  text-align: center;
+  margin: 65px 10px 10px;
+  color: #04AA6D;
+}
+  
+@media only screen and (max-width: 950px) {
+    .cards {
+      width: 49.99999%;
+      margin: 50px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .cards {
+      width: 100%;
+    }
+  }
+@keyframes kepanim {
+  from {
+
+    opacity: 0
+  }
+
+  to {
+
+    opacity: 1
+  }
+}
+.also {
+  background-color: #333;
+  position: fixed;
+  display: block;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+
+}
+#szoveg{
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  position: relative;
+  top:35px;
+}

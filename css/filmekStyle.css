@@ -1,0 +1,82 @@
+.framek2{
+    float: left;
+    margin: 50px 0 50px 125px;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+    height: 600px;
+
+}
+.framek{
+    display: none;
+
+}
+.framek2:last-of-type{
+    margin-bottom: 250px;
+}
+header{
+    text-align: center;
+    color: #04AA6D;
+    margin-bottom: 50px;
+}
+header h1{
+    text-align: center;
+    margin: 65px 10px 10px;
+    color: #04AA6D;
+}
+.framek2 h2{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+@keyframes example {
+    from {left: -300px; opacity: 0}
+
+    to {left: 0; opacity: 1}
+}
+@media screen and (max-width: 550px) {
+    .framek2{
+        margin-left: 0;
+    }
+
+}
+article{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    width: 394px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 5px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 401px) {
+    .framek2{
+        width: 350px;
+    }
+    .framek2 iframe{
+        width: 350px;
+    }
+    .framek2 article{
+        width: 350px;
+    }
+}
+@media print {
+    p { font-size: 12pt; }
+    video, audio, iframe { display: none; }
+    h1, h2, h3 { page-break-after: avoid; }
+    .framek2{
+        margin: 50px 0 50px 150px;
+        height: 300px;
+    }
+    article h5{
+        color: black;
+    }
+    footer p{
+        color: black;
+    }
+    .topnav{
+        color: black;
+    }
+}
+@page { margin: 0.5cm; }

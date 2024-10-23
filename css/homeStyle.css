@@ -1,0 +1,116 @@
+#idopont {
+    margin: auto;
+}
+#idopont caption{
+    text-align: center;
+    margin: 65px 10px 10px;
+    color: #04AA6D;
+}
+#idopont th{
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    width: 80px;
+    height: 50px;
+    margin: 0 auto;
+
+}
+#idopont a:hover{
+    color: #04AA6D;
+}#idopont a{
+    font-size: 20px;
+    color: white;
+}
+.kepszoveg{
+    text-decoration-line: underline;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+
+}
+#filmek table tr:nth-child(2) td{
+    padding: 15px 0;
+    position: relative;
+}
+.gombok button{
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin: auto;
+
+
+}
+.gombok button:focus{
+
+    background-color: #04AA6D;
+    color: white;
+    margin: auto;
+
+}
+.gombok{
+    display: table-cell;
+    text-align: center;
+}
+
+#szoveg{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    top:35px;
+}
+
+.tabla{
+    margin-left: 100px;
+    float: left;
+    width: 250px;
+    position: relative;
+    height: 500px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.tabla:last-of-type{
+    margin-bottom: 150px;
+}
+.also {
+    background-color: #333;
+    position: fixed;
+    display: block;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+}
+.anim {
+     position: relative;
+     animation-name: example;
+     animation-duration: 2s;
+     animation-fill-mode: forwards;
+
+ }
+.asd{
+    display: none;
+
+}
+@media screen and (max-width: 400px) {
+    .tabla{
+        margin-left: 50px;
+    }
+
+}
+
+
+@keyframes example {
+    from {left: -200px; opacity: 0}
+
+    to {left: 0; opacity: 1}
+}
+.csik {
+    border-color: #04AA6D;
+    z-index: +2;
+}
+img{
+    border-radius: 10px;
+}

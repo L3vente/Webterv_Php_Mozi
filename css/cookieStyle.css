@@ -1,0 +1,22 @@
+#form{
+  margin: 100px auto;
+    color: #2ecc71;
+    vertical-align: middle;
+    text-align: center;
+}
+ h1 {
+     vertical-align: middle;
+     text-align: center;
+     color: #2ecc71;
+
+ }
+ .delete{
+     vertical-align: middle;
+     text-align: center;
+     margin: 0 auto;
+     padding-top: 20px;
+ }
+ .delete a{
+     color: #2ecc71;
+     text-decoration: none;
+ }
