@@ -20,3 +20,4 @@ A projekt PHP-ban a következő funkciók valósultak meg:
 - **Profilkép feltöltése**: A felhasználó tud profilképet feltölteni magának, ezt le is tudja cserélni, illetve az oldalon meg is jelenik.
 - **Fiók törlés**: A felhasználó tudja törölni a felhasználói fiókját, ilyenkor az összes adata törlődik.
 - **Jogosultsági szintek**: Meg vannak valósítva különböző jogosultsági szintek. Az egyes jogosultsági szinttel rendelkező felhasználók több funkciót elérnek.
+![Cinema_website][./images/website.png]
